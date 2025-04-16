@@ -1,0 +1,21 @@
+{
+  "name": "electron-ocr",
+  "version": "1.0.0",
+  "description": "基于Electron的macOS OCR应用",
+  "main": "main.js",
+  "scripts": {
+    "build": "cd ../cpp && pnpm build",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ocr", "electron", "macos"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "30.5.1"
+  },
+  "devDependencies": {
+    "electron-builder": "24.6.3",
+    "electron-rebuild": "^3.2.9"
+  }
+} 

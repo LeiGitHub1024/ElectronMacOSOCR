@@ -1,0 +1,29 @@
+{
+  "name": "macosocr-cpp",
+  "version": "1.0.0",
+  "description": "macOS OCR原生模块",
+  "main": "../improved_ocr_module.js",
+  "scripts": {
+    "build": "node-gyp rebuild --target=30.5.1 --dist-url=https://electronjs.org/headers", 
+    "build-test": "node-gyp rebuild ",
+    "run-test": "cd tests && node run_tests.js improved --path ./test2.png"
+  },
+  "keywords": [
+    "ocr",
+    "macos",
+    "vision",
+    "native-module"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.1"
+  },
+  "gypfile": true,
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  }
+}
